@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    width: 100%;
+}
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+}
+.form-control:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 0 0.25rem rgba(106, 17, 203, 0.25);
+}
+.btn-primary {
+    background-color: #6a11cb;
+    border-color: #6a11cb;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+.btn-primary:hover {
+    background-color: #2575fc;
+    border-color: #2575fc;
+}
+.alert {
+    margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+/* Estilos específicos para Historial de Ventas */
+.sidebar .nav-link.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+.card-header {
+    background-color: #6a11cb;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.btn-action {
+    margin-right: 5px;
+}
+
+/* Estilos para el modal de detalles de venta */
+.modal-header.bg-primary {
+    background-color: #6a11cb !important;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-body strong {
+    color: #333;
+}
+
+.modal-footer .btn-primary {
+    background-color: #2575fc;
+    border-color: #2575fc;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #6a11cb;
+    border-color: #6a11cb;
+}
+.navbar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            border: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: white !important;
+        }
+        
+        .sidebar {
+            background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+            min-height: calc(100vh - 80px);
+            box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar .nav-link {
+            color: #ecf0f1;
+            padding: 15px 20px;
+            margin: 5px 0;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .sidebar .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            transform: translateX(5px);
+        }
+        
+        .sidebar .nav-link.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
